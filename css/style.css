@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	background-color: #fff;
+	font-size: 12pt;
+  color: #1a1a1a;
+  /*line-height: 1.5;*/
+}
+body {
+
+}
+.content {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.header {
+	background-image: url('images/juet-guna.jpg');
+	background-repeat: no-repeat;
+	background-size: 100px;
+	background-position: left;
+	height: 150px;
+	text-align: right;
+	color: #35a;
+	/*text-transform: uppercase;*/
+	display: table;
+	width: 100%;
+}
+.titles {
+	vertical-align: middle;
+	display: table-cell;
+}
+.title {
+	font-size: 2em;
+}
+.subtitle {
+	font-size: 1em;
+}
