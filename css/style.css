@@ -61,7 +61,30 @@ html {
   /*line-height: 1.5;*/
 }
 body {
-
+	min-width: 1000px;
+}
+.expand {
+	width: 100%;
+}
+.no-padding {
+	padding: 0px;
+}
+.no-margin {
+	margin: 0;
+}
+.no-border {
+	border: none;
+}
+.no-vertical-border {
+	border-left: none;
+	border-right: none;
+}
+.no-horizontal-border {
+	border-top: none;
+	border-bottom: none;
+}
+.scroll {
+	overflow: auto;
 }
 .content {
 	max-width: 1000px;
@@ -89,3 +112,31 @@ body {
 .subtitle {
 	font-size: 1em;
 }
+.footer {
+	background-color: #008cba;
+	color: #fff;
+}
+.upper-block {
+}
+.list-group-item {
+	margin-bottom: auto;
+	margin-top: -1px;
+}
+.btn-panel {
+	/*margin-left: 10px;*/
+	/*margin-right: -10px;*/
+	padding-right: 25px;
+	padding-left: 25px;
+	margin-top: -5px;
+	ma
+}
+.link-btn {
+	padding: 5px;
+}
+#notice-board {
+	height: 354px;
+}
+#notice-board-inner {
+	height: 313px;
+}
+
