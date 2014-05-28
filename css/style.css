@@ -147,18 +147,37 @@ p {
 	background-position: left;*/
 	height: 150px;
 	text-align: right;
+	/*vertical-align: middle;*/
 	color: #35a;
 	/*text-transform: uppercase;*/
 	display: table;
 	width: 100%;
 }
+.header-link {
+	display: table-row;
+	color: #35a;
+}
+/*.header-link:focus,.header-link:hover {
+	text-decoration: none;
+	color: #35a;
+	border: none;
+}*/
 .titles {
 	vertical-align: middle;
 	display: table-cell;
+	/*float: right;*/
 }
 .title {
 	font-size: 2em;
 }
+/*.titles > a {
+	color: #35a;
+}
+.titles > a:hover,.titles > a:focus {
+	text-decoration: none;
+	color: #35a;
+	border: none;
+}*/
 .title-logo {
 	height: 100%;
 	padding: 20px;
