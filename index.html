@@ -5,16 +5,31 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Jaypee University of Engineering and Technology</title>
   <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" href="css/carousel.css" />
   <link rel="stylesheet" href="css/style.css" />
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/carousel.js"></script>
+  <script src="js/marquee.js"></script>
   <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 </head>
 <body>
+  <div class="navbar navbar-inverse navbar-top">
+    <div class="content">
+      <div class="navbar-collapse collapse navbar-inverse-collapse">
+        <ul class="nav navbar-nav navbar-right nav-top">
+          <li><a href="#">Faculty</a></li>
+          <li><a href="#">Online Admission Enquiry</a></li>
+          <li><a href="#">Admission - 2014</a></li>
+          <li><a href="#">The Observer - Univerity e-Newspaper</a></li>
+          <li><a href="#">Placement - 2014</a></li>
+          <li><a href="#">Convocation</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
   <div class="header content">
     <div class="titles">
       <p class="title">Jaypee University of Engineering and Technology</p>
@@ -302,7 +317,8 @@
 
           <div class="panel panel-default" id="notice-board">
             <div class="panel-heading">
-              <h3 class="panel-title">Notice Board</h3>
+              <h3 class="panel-title" style="float:left;">Notice Board</h3>
+              <h5 class="panel-title" style="float:right;"><a href="#">View all</a></h5>
             </div>
             <div class="panel-body no-padding ">
               <div class="list-group scroll" id="notice-board-inner">
@@ -318,61 +334,127 @@
         </div>
       </div>
     </div>
+    <div class="middle-block" style="padding-left:10px;padding-right:10px;">
+      <div class="row no-padding">
+        <div class="col-xs-3 link-btn">
+          <a type="button" href="#" class="btn btn-success expand">Admission - 2014</a>
+        </div>
+        <div class="col-xs-6 link-btn">
+          <a type="button" href="#" class="btn btn-success expand">The Observer - University e-Newspaper</a>
+        </div>
+        <div class="col-xs-3 link-btn">
+          <a id="recruitersBtn" type="button" data-toggle="collapse" data-parent=".middle-block" href="#recruiters" class="btn btn-success expand">Our Recruiters</a>
+        </div>
+      </div>
+      <div class="panel panel-default collapse" style="margin-left:-10px;margin-right:-10px;margin-bottom:0;" id="recruiters">
+        <div class="panel-body" style="text-align:center;">
+            <img src="images/cop-logo.jpg">
+            <img src="images/cop-logo.jpg">
+            <img src="images/cop-logo.jpg">
+            <img src="images/cop-logo.jpg">
+            <img src="images/cop-logo.jpg">
+            <img src="images/cop-logo.jpg">
+            <img src="images/cop-logo.jpg">
+            <img src="images/cop-logo.jpg">
+            <img src="images/cop-logo.jpg">
+            <img src="images/cop-logo.jpg">
+            <img src="images/cop-logo.jpg">
+            <img src="images/cop-logo.jpg">
+            <img src="images/cop-logo.jpg">
+            <img src="images/cop-logo.jpg">
+            <img src="images/cop-logo.jpg">
+            <img src="images/cop-logo.jpg">
+            <img src="images/cop-logo.jpg">
+            <img src="images/cop-logo.jpg">
+            <img src="images/cop-logo.jpg">
+            <img src="images/cop-logo.jpg">
+            <img src="images/cop-logo.jpg">
+            <img src="images/cop-logo.jpg">
+            <img src="images/cop-logo.jpg">
+            <img src="images/cop-logo.jpg">
+            <img src="images/cop-logo.jpg">
+            <img src="images/cop-logo.jpg">
+            <img src="images/cop-logo.jpg">
+            <img src="images/cop-logo.jpg">
+        </div>
+      </div>
+    </div>
+    <br>
     <div class="lower-block">
       <div class="row">
         <div class="col-xs-4 btn-panel">
           <div class="row">
             <div class="col-xs-6 link-btn">
-              <button type="button" class="btn btn-primary expand">Webkiosk</button>
+              <a type="button" href="#" class="btn btn-primary expand">Webkiosk</a>
             </div>
             <div class="col-xs-6 link-btn">
-              <button type="button" class="btn btn-primary expand">Webmail</button>
+              <a type="button" href="#" class="btn btn-primary expand">Webmail</a>
             </div>
           </div>
           <div class="row">
             <div class="col-xs-12 link-btn">
-              <button type="button" class="btn btn-primary expand">JUET Newsletter</button>
+              <a type="button" href="#" class="btn btn-primary expand">JUET Newsletter</a>
             </div>
           </div>
           <div class="row">
             <div class="col-xs-12 link-btn">
-              <button type="button" class="btn btn-primary expand">Campus Virtual Tour</button>
+              <a type="button" href="#" class="btn btn-primary expand">Campus Virtual Tour</a>
             </div>
           </div>
           <div class="row">
             <div class="col-xs-12 link-btn">
-              <button type="button" class="btn btn-primary expand">JUET Research Journal</button>
+              <a type="button" href="#" class="btn btn-primary expand">JUET Research Journal</a>
             </div>
           </div>
           <div class="row">
             <div class="col-xs-12 link-btn">
-              <button type="button" class="btn btn-primary expand">JUET Youth Club</button>
+              <a type="button" href="#" class="btn btn-primary expand">JUET Youth Club</a>
             </div>
           </div>
           <div class="row">
             <div class="col-xs-6 link-btn">
-              <button type="button" class="btn btn-primary expand">JUIT Solan</button>
+              <a type="button" href="#" class="btn btn-primary expand">JUIT Solan</a>
             </div>
             <div class="col-xs-6 link-btn">
-              <button type="button" class="btn btn-primary expand">JIIT Noida</button>
+              <a type="button" href="#" class="btn btn-primary expand">JIIT Noida</a>
             </div>
           </div>
 
 
         </div>
         <div class="col-xs-4">
-          <div class="panel panel-default">
-            <div class="panel-heading"></div>
-            <div class="panel-body">
-
+          <div class="panel panel-default" id="announcements">
+            <div class="panel-heading">
+              <h3 class="panel-title" style="float:left;">Academic Announcements</h3>
+              <h5 class="panel-title" style="float:right;"><a href="#">View all</a></h5>
+            </div>
+            <div class="panel-body no-padding ">
+              <div class="list-group scroll" id="announcements-inner">
+                <a href="#" class="list-group-item no-vertical-border">Supplementary Examination Even Semester 2014</a>
+                <a href="#" class="list-group-item no-vertical-border">Academic Calender Odd Sem 2014-15</a>
+                <a href="#" class="list-group-item no-vertical-border">Issue of Degree Certificates to Pass out Batches 2013</a>
+                <a href="#" class="list-group-item no-vertical-border">Procedure for Obtaining Transcripts</a>
+                <a href="#" class="list-group-item no-vertical-border">B.Tech. Degree Certificate Collection</a>
+                <a href="#" class="list-group-item no-vertical-border">CSI - Student Branch, JUET Guna</a>
+                <a href="#" class="list-group-item no-vertical-border">Academic Calender Even Sem 2013-14</a>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-xs-4">
-          <div class="panel panel-default">
-            <div class="panel-heading"></div>
-            <div class="panel-body">
-
+          <div class="panel panel-default" id="conferences-workshops">
+            <div class="panel-heading">
+              <h3 class="panel-title" style="float:left;">Conferences and Workshops</h3>
+              <h5 class="panel-title" style="float:right;"><a href="#">View all</a></h5>
+            </div>
+            <div class="panel-body no-padding ">
+              <div class="list-group scroll" id="conferences-workshops-inner">
+                <a href="#" class="list-group-item no-vertical-border">International Workshop on Intelligent Approaches for Object Oriented Modeling in Component Based Software Engineering</a>
+                <a href="#" class="list-group-item no-vertical-border">5th International Conference on Information Technology &amp; Business Intelligence (ICITBM-2013)</a>
+                <a href="#" class="list-group-item no-vertical-border">National Conference on Environmental Sustainability and Society : The Growing Paradigm Shift (ESS-2013)</a>
+                <a href="#" class="list-group-item no-vertical-border">MOU Signed Between JUET and CAIR-DRDO</a>
+                <a href="#" class="list-group-item no-vertical-border">Conferences &amp; Workshops Archives </a>
+              </div>
             </div>
           </div>
         </div>
@@ -385,18 +467,29 @@
         <div class="col-xs-3">
           <p><a href="#" class="white">AICTE - Mandatory Disclosure</a></p>
           <p><a href="#" class="white">Information under RTI Act</a></p>
+          <p><a href="#" class="white">Anti-Ragging Policy</a></p>
         </div>
         <div class="col-xs-6">
-          <div class="col-xs-4">
+          <div class="col-xs-5 right-align">
+            <p><a href="#" class="white">Career Openings</a></p>
+            <p><a href="#" class="white">Faculty Club</a></p>
+            <p><a href="#" class="white">Learning Resource Center</a></p>
+            <p><a href="#" class="white">Student's Acitivities</a></p>
+            <p><a href="#" class="white">Notice Archives</a></p>
           </div>
-          <div class="col-xs-4">
-            <img src="images/juet-guna.jpg" alt="" id="logo-footer">
+          <div class="col-xs-2 no-padding">
+            <img src="images/juet-guna.jpg" id="logo-footer" alt="">
           </div>
-          <div class="col-xs-4">
+          <div class="col-xs-5">
+            <p><a href="#" class="white">Admission</a></p>
+            <p><a href="#" class="white">Campus at a Glance</a></p>
+            <p><a href="#" class="white">Convocation</a></p>
+            <p><a href="#" class="white">Placement</a></p>
+            <p><a href="#" class="white">The Observer</a></p>
           </div>
         </div>
         <div class="col-xs-3">
-            <h4 class="no-margin">Contact Us</h4><br>
+            <!-- <h4 class="no-margin">Contact Us</h4><br> -->
             <p>
               Jaypee University of Engineering and Technology,<br>
               A-B Road, Raghogarh,<br>
@@ -420,6 +513,20 @@
 
 
     $('.carousel').carousel();
+
+
+    var el = document.getElementById('recruitersBtn');
+    el.onclick = showFoo;
+
+
+    function showFoo() {
+
+    // $('marquee').marquee();
+      // return false;
+      setTimeout(function(){$('marquee').marquee();},0)
+    }
+
+
 
   });
   </script>

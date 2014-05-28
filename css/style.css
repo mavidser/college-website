@@ -58,13 +58,43 @@ html {
 	background-color: #fff;
 	font-size: 12pt;
   color: #1a1a1a;
-  /*line-height: 1.5;*/
+  line-height: 1.5;
 }
 body {
 	min-width: 1000px;
 }
+.table {
+	display: table;
+}
+.inline {
+	display: inline;
+}
+.block {
+	display: block;
+}
+.inline-block {
+	display: inline-block;
+}
+.none {
+	display: none;
+}
+.hidden {
+	visibility: hidden;
+}
+.table-row {
+	display: table-row;
+}
+.table-cell {
+	display: table-cell;
+}
 .expand {
 	width: 100%;
+}
+.white {
+	color: #fff;
+}
+.white:hover {
+	color: #fff;
 }
 .no-padding {
 	padding: 0px;
@@ -115,6 +145,20 @@ body {
 .footer {
 	background-color: #008cba;
 	color: #fff;
+	font-size: 0.9em;
+	margin-top: 15px;
+	padding: 25px;
+}
+.footer-dark {
+	background-color: #006c9a;
+	color: #fff;
+	font-size: 0.9em;
+	padding: 15px;
+	text-align: center;
+}
+#logo-footer {
+	width: 100px;
+	margin: 0 auto;
 }
 .upper-block {
 }
