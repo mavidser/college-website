@@ -1,3 +1,10 @@
+/** { background-color: rgba(255,0,0,.2); }
+* * { background-color: rgba(0,255,0,.2); }
+* * * { background-color: rgba(0,0,255,.2); }
+* * * * { background-color: rgba(255,0,255,.2); }
+* * * * * { background-color: rgba(0,255,255,.2); }
+* * * * * * { background-color: rgba(255,255,0,.2); }
+*/
 .sidebar-nav {
     padding: 9px 0;
 }
@@ -116,6 +123,12 @@ body {
 .scroll {
 	overflow: auto;
 }
+.right-align {
+	text-align: right;
+}
+.center-align {
+	text-align: center;
+}
 .content {
 	max-width: 1000px;
 	margin: 0 auto;
@@ -157,8 +170,20 @@ body {
 	text-align: center;
 }
 #logo-footer {
-	width: 100px;
+	width: 100%;
 	margin: 0 auto;
+}
+.navbar-top {
+	min-height: 25px;
+	background-color: #006c9a;
+	margin-bottom: 0;
+}
+.nav-top > li > a {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.nav-top > li > a:hover {
+	background-color: #004657 !important;
 }
 .upper-block {
 }
@@ -177,10 +202,31 @@ body {
 .link-btn {
 	padding: 5px;
 }
+.panel-heading {
+	display: inline-table;
+	width: 100%;
+	background-color: #22acda !important;
+	color: #fff !important;
+}
+.panel-heading > h5 {
+	font-size: 12px;
+	line-height: 17px;
+}
 #notice-board {
 	height: 354px;
 }
 #notice-board-inner {
 	height: 313px;
 }
-
+#announcements {
+	height: 356px;
+}
+#announcements-inner {
+	height: 315px;
+}
+#conferences-workshops {
+	height: 356px;
+}
+#conferences-workshops-inner {
+	height: 315px;
+}
