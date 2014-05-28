@@ -70,6 +70,10 @@ html {
 body {
 	min-width: 1000px;
 }
+p {
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
 .table {
 	display: table;
 }
@@ -93,6 +97,9 @@ body {
 }
 .table-cell {
 	display: table-cell;
+}
+.center-wrap {
+	text-align: center;
 }
 .expand {
 	width: 100%;
@@ -134,10 +141,10 @@ body {
 	margin: 0 auto;
 }
 .header {
-	background-image: url('images/juet-guna.jpg');
-	background-repeat: no-repeat;
+	/*background-image: url('images/juet-guna.jpg');*/
+	/*background-repeat: no-repeat;
 	background-size: 100px;
-	background-position: left;
+	background-position: left;*/
 	height: 150px;
 	text-align: right;
 	color: #35a;
@@ -151,6 +158,12 @@ body {
 }
 .title {
 	font-size: 2em;
+}
+.title-logo {
+	height: 100%;
+	padding: 20px;
+	float: left;
+	/*vertical-align: center;*/
 }
 .subtitle {
 	font-size: 1em;
@@ -185,6 +198,25 @@ body {
 .nav-top > li > a:hover {
 	background-color: #004657 !important;
 }
+.breadcrumb {
+	/*background-color: #008cba;
+	color: #fff;*/
+	background-color: #eee;
+	font-size: 14px;
+	border-radius: 0;
+	/*border-color: #007caa;*/
+}
+.breadcrumb > li > a {
+	/*color: #fff;*/
+}
+.breadcrumb > li.active {
+	/*color: #ddd;*/
+}
+.breadcrumb>li+li:before {
+	content: "/\/\00a0";
+	padding: 0 5px;
+	color: #bbb;
+}
 .upper-block {
 }
 .list-group-item {
@@ -202,7 +234,7 @@ body {
 .link-btn {
 	padding: 5px;
 }
-.panel-heading {
+.heading-default {
 	display: inline-table;
 	width: 100%;
 	background-color: #22acda !important;
@@ -211,6 +243,33 @@ body {
 .panel-heading > h5 {
 	font-size: 12px;
 	line-height: 17px;
+}
+.sidebar {
+	border: none;
+	-webkit-box-shadow:none;
+  -moz-box-shadow:none;
+  box-shadow:none;
+}
+.sublist {
+	background-color: #fafafa;
+	padding-left: 30px;
+}
+a.list-group-item.active {
+	 background-color: #eee;
+	 color: #555;
+	 border: none;
+}
+a.list-group-item.active:hover {
+	 background-color: #e5e5e5;
+	 color: #555;
+}
+
+.sub-heading {
+	background-color: #22acda !important;
+	border: none;
+}
+.sub-heading > h3 {
+	font-size: 14px;
 }
 #notice-board {
 	height: 354px;
@@ -229,4 +288,12 @@ body {
 }
 #conferences-workshops-inner {
 	height: 315px;
+}
+img.faculty {
+	float: right;
+	margin-right: 10px;
+	border-width: 5px;
+	border-color: #eee;
+	border-style: solid;
+	height: 200px;
 }
