@@ -107,7 +107,7 @@ p {
 .white {
 	color: #fff;
 }
-.white:hover {
+.white:hover,.white:focus {
 	color: #fff;
 }
 .no-padding {
@@ -222,7 +222,9 @@ p {
 	color: #fff;*/
 	background-color: #eee;
 	font-size: 14px;
+	/*font-size: 18px;*/
 	border-radius: 0;
+	/*font-weight: bold;*/
 	/*border-color: #007caa;*/
 }
 .breadcrumb > li > a {
@@ -242,6 +244,7 @@ p {
 	margin-bottom: auto;
 	margin-top: -1px;
 }
+
 .btn-panel {
 	/*margin-left: 10px;*/
 	/*margin-right: -10px;*/
@@ -276,10 +279,15 @@ p {
 a.list-group-item.active {
 	 background-color: #eee;
 	 color: #555;
-	 border: none;
+	 border: 1px solid #ddd;
+	 border-left: none;
+	 border-right: none;
 }
 a.list-group-item.active:hover {
 	 background-color: #e5e5e5;
+	 border: 1px solid #ddd;
+	 border-left: none;
+	 border-right: none;
 	 color: #555;
 }
 
