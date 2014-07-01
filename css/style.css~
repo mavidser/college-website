@@ -316,16 +316,16 @@ a.list-group-item.active:hover {
 	font-size: 14px;
 }
 #notice-board {
-	height: 356px;
-}
-#notice-board-inner {
-	height: 315px;
-}
-#announcements {
 	height: 347px;
 }
-#announcements-inner {
+#notice-board-inner {
 	height: 306px;
+}
+#announcements {
+	height: 356px;
+}
+#announcements-inner {
+	height: 315px;
 }
 #conferences-workshops {
 	height: 356px;
