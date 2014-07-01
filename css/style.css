@@ -180,8 +180,7 @@ p {
 	border: none;
 }*/
 .title-logo {
-	height: 100%;
-	padding: 20px;
+	padding: 20px 0px 0px 0px;
 	float: left;
 	/*vertical-align: center;*/
 }
